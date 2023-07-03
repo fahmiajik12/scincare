@@ -514,11 +514,11 @@ section {
   color: #222;
 }
 
-.gallery {
+.PRODUCT {
   background: #f5f5f5;
 }
 
-.gallery .lightbox {
+.PRODUCT .lightbox {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(31rem, 1fr))[auto-fit];
@@ -526,7 +526,7 @@ section {
   gap: 2rem;
 }
 
-.gallery .lightbox a {
+.PRODUCT .lightbox a {
   height: 30rem;
   overflow: hidden;
   border: 1rem solid #fff;
@@ -534,12 +534,12 @@ section {
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
-.gallery .lightbox a:hover img {
+.PRODUCT .lightbox a:hover img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-.gallery .lightbox a img {
+.PRODUCT .lightbox a img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
