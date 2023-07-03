@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Younme</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="#home" class="logo"> <img src="images/logoskincare.png" alt=""> </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+
+    </header>
+
+    <!-- navbar section  -->
+
+    <nav class="navbar">
+        <div id="close-navbar" class="fas fa-times"></div>
+        <a href="#home">home</a>
+        <a href="#shop">shop</a>
+        <a href="#gallery">gallery</a>
+        <a href="#testi">team</a>
+        <a href="#arrivals">arrivals</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+    <!-- navbar section  -->
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="slide active">
+            <div class="content">
+                <img src="images/serumbg.jpg" alt="">
+                <span>New Arrivals 2022</span>
+                <h3>Skincare Routine</h3>
+                <a href="#" class="btn">read more</a>
+                <div class="controls">
+                    <div class="fas fa-angle-left" onclick="prev()"></div>
+                    <div class="fas fa-angle-right" onclick="next()"></div>
+                </div>
+            </div>
+            <div class="image">
+                <img src="images/serumbg.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <img src="images/serum2.jpg" alt="">
+                <span>New Arrivals 2022</span>
+                <h3>Skincare Routine</h3>
+                <a href="#" class="btn">read more</a>
+                <div class="controls">
+                    <div class="fas fa-angle-left" onclick="prev()"></div>
+                    <div class="fas fa-angle-right" onclick="next()"></div>
+                </div>
+            </div>
+            <div class="image">
+                <img src="images/serum2.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <img src="images/serum4.jpg" alt="">
+                <span>new collections</span>
+                <h3>Skincare Routine</h3>
+                <a href="#" class="btn">read more</a>
+                <div class="controls">
+                    <div class="fas fa-angle-left" onclick="prev()"></div>
+                    <div class="fas fa-angle-right" onclick="next()"></div>
+                </div>
+            </div>
+            <div class="image">
+                <img src="images/serum4.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- category section starts  -->
+
+    <section class="category">
+
+        <a href="#" class="box">
+            <img src="images/kategori1.jpg" alt="">
+            <p>Serum Algae</p>
+        </a>
+
+        <a href="#" class="box">
+            <img src="images/kategori2.jpg" alt="">
+            <p>Serum Red Sweetone</p>
+        </a>
+
+        <a href="#" class="box">
+            <img src="images/kategori3.jpg" alt="">
+            <p>Serum Cloud Jelly</p>
+        </a>
+
+        <a href="#" class="box">
+            <img src="images/kategori4.jpg" alt="">
+            <p>Serum Laneige</p>
+        </a>
+
+        <a href="#" class="box">
+            <img src="images/kategori5.jpg" alt="">
+            <p>Serum Glowy</p>
+        </a>
+
+        <a href="#" class="box">
+            <img src="images/kategori6.jpg" alt="">
+            <p>Serum KylieSkin</p>
+        </a>
+
+    </section>
+
+    <!-- category section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <div class="content">
+            
+            <span>Mengapa harus serum Y.O.U</span>
+            <h3>Serum Y.O.U</h3>
+            <p>Serum Y.O.U adalah salah satu rangkaian skincare dari Y.O.U. Dengan harga yang cukup terjangkau, serum ini punya banyak manfaat untuk kulit wajah kamu, mulai dari menjaga 
+                keseimbangan minyak dan air pada kulit wajah, mencegah keriput, dan juga mencerahkan kulit wajah.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- shop section starts  -->
+
+    <section class="shop" id="shop">
+
+        <div class="heading">
+            <h1>Produk Lainya</h1>
+        </div>
+    
+        <div class="swiper products-slider">
+    
+            <div class="swiper-wrapper">
+    
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="discount">-25%</span>
+                        <img src="images/wardah.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="https://api.whatsapp.com/send?text=Produk Skincare satu ini adalah produk skincare terbaik" class="fas fa-share" target="_blank"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>Wardah White Screet</p>
+                        <div class="price">Rp 499.000 <span>Rp 799.000</span></div>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="discount">-25%</span>
+                        <img src="images/scarlett.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="https://api.whatsapp.com/send?text=Produk Skincare satu ini adalah produk skincare terbaik" class="fas fa-share" target="_blank"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>Scarlett Whitening</p>
+                        <div class="price">Rp 499.000 <span>Rp 599.000</span></div>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="discount">-25%</span>
+                        <img src="images/product-3.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="https://api.whatsapp.com/send?text=Produk Skincare satu ini adalah produk skincare terbaik" class="fas fa-share" target="_blank"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>Clay Mask</p>
+                        <div class="price">Rp 299.000 <span>Rp 399.000</span></div>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="discount">-25%</span>
+                        <img src="images/whitelab.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="https://api.whatsapp.com/send?text=Produk Skincare satu ini adalah produk skincare terbaik" class="fas fa-share" target="_blank"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>White Lab</p>
+                        <div class="price">Rp 899.000 <span>Rp 1.099.000</span></div>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="discount">-25%</span>
+                        <img src="images/product-5.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="https://api.whatsapp.com/send?text=Produk Skincare satu ini adalah produk skincare terbaik" class="fas fa-share" target="_blank"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>beauty products</p>
+                        <div class="price">Rp 499.000 <span>Rp 799.000</span></div>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="discount">-25%</span>
+                        <img src="images/product-6.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="https://api.whatsapp.com/send?text=Produk Skincare satu ini adalah produk skincare terbaik" class="fas fa-share" target="_blank"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>beauty products</p>
+                        <div class="price">Rp 499.000 <span>Rp 799.000</span></div>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="discount">-25%</span>
+                        <img src="images/product-7.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="https://api.whatsapp.com/send?text=Produk Skincare satu ini adalah produk skincare terbaik" class="fas fa-share" target="_blank"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>beauty products</p>
+                        <div class="price">Rp 499.000 <span>Rp 799.000</span></div>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="discount">-25%</span>
+                        <img src="images/product-8.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="https://api.whatsapp.com/send?text=Produk Skincare satu ini adalah produk skincare terbaik" class="fas fa-share" target="_blank"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>beauty products</p>
+                        <div class="price">Rp 499.000 <span>Rp 799.000</span></div>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    
+    </section>
+    
+
+    <!-- gallery section ends -->
+
+    <!-- Testimoni -->
+
+    <section class="testi" id="testi">
+        <div class="heading">
+            <h1>Testimoni Pelanggan</h1>
+        </div>
+        <div class="swiper products-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/Female-09.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p><strong>Lelita Amelia Sari</strong></p>
+                        <div class="review">
+                            <p>Saya sangat puas dengan produk skincare Younme! Kulit wajah saya menjadi lebih cerah dan terasa lebih halus setelah menggunakan rangkaian produk dari Younme. Terima kasih!</p>
+                        </div>
+                        <div class="rating">
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/Male-08.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p><strong>Kresna Rizky Pratama</strong></p>
+                        <div class="review">
+                            <p>Saya merekomendasikan produk skincare Younme kepada semua orang! Kulit wajah saya yang berjerawat menjadi lebih baik setelah menggunakan produk dari Younme. Harganya juga terjangkau!</p>
+                        </div>
+                        <div class="rating">
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/Female-09.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p><strong>Holila Ristafia</strong></p>
+                        <div class="review">
+                            <p>Produk skincare Younme sangat cocok untuk kulit sensitif seperti saya. Setelah menggunakan produk ini, kulit wajah saya terasa lebih lembap dan tidak iritasi. Saya sangat puas!</p>
+                        </div>
+                        <div class="rating">
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/Male-08.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p><strong>Aditya Purnama Putra</strong></p>
+                        <div class="review">
+                            <p>Saya menggunakan produk skincare Younme selama beberapa minggu dan hasilnya luar biasa! Jerawat dan noda hitam di wajah saya semakin berkurang. Saya sangat merekomendasikan produk ini!</p>
+                        </div>
+                        <div class="rating">
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Testimoni -->
+
+    <!-- arrivals section starts  -->
+
+    <section class="arrivals" id="arrivals">
+
+        <div class="heading">
+            <h1>Produk yang baru datang</h1>
+            <p>Berikut Produk - produk kami yang baru datang</p>
+        </div>
+
+        <div class="swiper arrivals-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/lipcream.png" alt="">
+                    </div>
+                    <div class="content">
+                        <p>Lipcream Pixy</p>
+                        <div class="price">Rp. 40.000 <span>Rp. 50.000</span></div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/maskara.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p>Mascara</p>
+                        <div class="price">Rp. 90.000 <span>Rp. 100.000</span></div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/cream.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p>Moisturizer</p>
+                        <div class="price">Rp.80.000 <span>Rp. 120.000</span></div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/arrival-4.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p>Lipstick</p>
+                        <div class="price">Rp. 86.000 <span>Rp. 97.000</span></div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/arrival-5.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p>Serum</p>
+                        <div class="price">Rp. 65.000 <span>Rp. 80.000</span></div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/arrival-6.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p>Brush</p>
+                        <div class="price">Rp. 45.000 <span>Rp. 65.000</span></div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/arrival-7.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p>Cream</p>
+                        <div class="price">Rp. 600.000 <span>Rp. 1.000.000</span></div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+
+    <!-- arrivals section ends -->
+
+    <!-- reviews section starts  -->
+
+    
+
+    <!-- reviews section ends  -->
+
+    <!-- service section starts  -->
+
+    <section class="service">
+
+        <div class="box">
+            <img src="images/service-1.png" alt="">
+            <h3>free shipping</h3>
+            <p>Kami mengantarkan pesanan Gratis Ongkir ke seluruh Indonesia</p>
+        </div>
+
+        <div class="box">
+            <img src="images/service-2.png" alt="">
+            <h3>secure payment</h3>
+            <p>Kami juga terhubung dengan BNI untuk meningkatkan keamanan pembayaran</p>
+        </div>
+
+        <div class="box">
+            <img src="images/service-3.png" alt="">
+            <h3>2/4 support</h3>
+            <p>Customer Service kami akan melayani komplain 24 jam.</p>
+        </div>
+
+    </section>
+
+    <!-- service section ends -->
+
+    <!-- blogs section starts  -->
+
+    
+
+    <!-- blogs section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a class="link" href="#home"> <i class="fas fa-angle-right"></i> home</a>
+                <a class="link" href="#shop"> <i class="fas fa-angle-right"></i> shop</a>
+                <a class="link" href="#gallery"> <i class="fas fa-angle-right"></i> gallery</a>
+                <a class="link" href="#team"> <i class="fas fa-angle-right"></i> team</a>
+                <a class="link" href="#arrivals"> <i class="fas fa-angle-right"></i> arrivals</a>
+                <a class="link" href="#blogs"> <i class="fas fa-angle-right"></i> blogs</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#" class="link"> <i class="fas fa-angle-right"></i> my order </a>
+                <a href="#" class="link"> <i class="fas fa-angle-right"></i> my favorite </a>
+                <a href="#" class="link"> <i class="fas fa-angle-right"></i> my wishlist </a>
+                <a href="#" class="link"> <i class="fas fa-angle-right"></i> private policy </a>
+                <a href="#" class="link"> <i class="fas fa-angle-right"></i> terms of use </a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <p> <i class="fas fa-phone"></i> 01878-307396 </p>
+                <p> <i class="fas fa-phone"></i> 01684-346530 </p>
+                <p> <i class="fas fa-envelope"></i> younme@gmail.com </p>
+                <p> <i class="fas fa-map"></i> Jl. Kaliurang gang Sumur Bor, Sumbersari, Jember </p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <form action="">
+                    <input type="email" name="" placeholder="enter your email" id="" class="email">
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+            </div>
+
+        </div>
+
+        <div class="credit"> Design and Develop by <a target="_blank" href="#"><span>YOUNME</span></a> | all rights reserved! </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link      -->
+    <script src="js/script.js"></script>
+
+    <script>
+        lightGallery(document.querySelector('.gallery .lightbox'));
+    </script>
+
+</body>
+
+</html>
