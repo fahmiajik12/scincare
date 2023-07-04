@@ -99,7 +99,7 @@ var swiper = new Swiper(".reviews-slider", {
   },
 });
 
-var swiper = new Swiper(".blogs-slider", {
+var swiper = new Swiper(".profil-slider", {
   loop: true,
   grabCursor : true,
   spaceBetween: 20,

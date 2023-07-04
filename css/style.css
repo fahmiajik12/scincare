@@ -780,31 +780,31 @@ section {
   line-height: 2;
 }
 
-.blogs .slide:hover .image img {
+.profil .slide:hover .image img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-.blogs .slide:hover .image .icons {
+.profil .slide:hover .image .icons {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
 
-.blogs .slide .image {
+.profil .slide .image {
   height: 30rem;
   width: 100%;
   overflow: hidden;
   position: relative;
 }
 
-.blogs .slide .image img {
+.profil .slide .image img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.blogs .slide .image .icons {
+.profil .slide .image .icons {
   background: #fff;
   position: absolute;
   bottom: 0;
@@ -826,31 +826,31 @@ section {
   z-index: 10;
 }
 
-.blogs .slide .image .icons a {
+.profil .slide .image .icons a {
   font-size: 1.5rem;
   color: #222;
 }
 
-.blogs .slide .image .icons a i {
+.profil .slide .image .icons a i {
   color: #e84393;
   padding-right: .5rem;
 }
 
-.blogs .slide .image .icons a:hover {
+.profil .slide .image .icons a:hover {
   color: #e84393;
 }
 
-.blogs .slide .content {
+.profil .slide .content {
   text-align: center;
   padding: 1.5rem;
 }
 
-.blogs .slide .content h3 {
+.profil .slide .content h3 {
   font-size: 2rem;
   color: #222;
 }
 
-.blogs .slide .content p {
+.profil .slide .content p {
   padding: 1rem 0;
   line-height: 2;
   color: #777;
